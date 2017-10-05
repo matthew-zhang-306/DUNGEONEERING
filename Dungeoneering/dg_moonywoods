@@ -1,0 +1,28 @@
+Moony Woods
+Floors: 3
+Rooms per floor: 4-7
+Traps: 2
+    1 Trap: 30
+    2 Trap: 10
+Trap List: 3
+    1-50-Wonder Tile
+    51-89-Hunger Trap
+    90-100-Seal Trap
+Monster House: 50
+Big Room Chance: 30
+Pokémon present: 6
+    Bulbasaur, Lileep, Ferroseed, Deino, Pawniard, Murkrow
+Level Range: 3-7
+Items: 4
+    1 Item: 65
+    2 Item: 40
+    3 Item: 20
+    4 Item: 5
+Item List: 6
+    1-34-Poke
+    35-54-Berry
+    55-74-Oran Berry
+    75-84-Elixir
+    85-94-Tiny Reviver Seed
+    95-100-Gummi
+Poké piles: 20-35
