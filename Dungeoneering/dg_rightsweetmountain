@@ -1,35 +1,33 @@
 Right Sweet Mountain
 Floors: 8
-Level Range: 7d1 + 1d3
-Rooms per floor: 3d1 + 1d4
-Traps 1d100:
-1 Trap: 30 or less
-2 Traps: 10 or less
-Trap List:
-1-50 Wonder Tile
-51-89 Hunger Trap
-90-100 Seal Trap
-
-No Monster Houses
-Pokemon Present: Carbink, Geodude, Omanyte, Kabuto, Ralts, Klefki
-
-Big Room Chance: 30% (Double Items + Double Traps)
-
-Item Chance: 1d100
-1 Item: 60 or less
-2 Items: 40 or less
-3 Items: 20 or less
-4 Items: 5 or less
-5 Items: 1
-
-Poke Piles: 34d1 + 1d16
-Item List: 1d100
-1-20 Geo Pebble (4d1 + 1d4)
-21-31 Poke
-32-43 Oran Berry
-44-69 Apple
-70-80 Big Apple
-81-83 Tiny Reviver Seed
-84-97 Gummi
-98-99 Mini Donut
-100 Moon Stone
+Rooms per floor: 4-7
+Traps: 2
+    1 Trap: 30
+    2 Trap: 10
+Trap List: 3
+    1-50-Wonder Tile
+    51-89-Hunger Trap
+    90-100-Seal Trap
+Monster House: 0
+Big Room Chance: 30
+Pokemon Present: 6
+    Carbink, Geodude, Omanyte, Kabuto, Ralts, Klefki
+Level Range: 8-10
+Items: 5
+    1 Item: 60
+    2 Item: 40
+    3 Item: 20
+    4 Item: 5
+    5 Item: 1
+Item List: 9
+    1-20-Geo Pebble
+    21-31-Poke
+    32-43-Oran Berry
+    44-69-Apple
+    70-80-Big Apple
+    81-83-Tiny Reviver Seed
+    84-97-Gummi
+    98-99-Mini Donut
+    100-100-Moon Stone
+Poke Piles: 35-50
+Geo Pebbles: 8

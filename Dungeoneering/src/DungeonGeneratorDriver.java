@@ -12,7 +12,7 @@ public class DungeonGeneratorDriver {
 
     public static void main(String args[]) {
 
-        DungeonGenerator dungeon = new DungeonGenerator("leftsweetmountain");
+        DungeonGenerator dungeon = new DungeonGenerator("rightsweetmountain");
 
         dungeon.generateRooms();
         System.out.println(dungeon);

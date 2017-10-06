@@ -77,6 +77,14 @@ public class XPMachine {
     }
 
     /**
+     * Returns a list of the party members involved.
+     * @return party
+     */
+    public ArrayList<PartyMember> getParty() {
+        return party;
+    }
+
+    /**
      * Returns a printout for the XPMachine object.
      * Includes xp and level gain stats for each party member.
      * @return this as a String
@@ -85,6 +93,7 @@ public class XPMachine {
         String output = header;
 
         for (int i = 0; i < party.size(); i++) {
+            output += party.get(i).getProgress() + " ";
             output += party.get(i).getName().toUpperCase() + " has " + party.get(i).getXP() + " XP (LEVEL " + party.get(i).getLevel() + ")" + "\n";
         }
 
