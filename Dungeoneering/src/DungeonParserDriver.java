@@ -1,3 +1,11 @@
+/**
+ * <h1>DungeonParserDriver</h1>
+ * The DungeonParserDriver class tests the functionality of the DungeonParser class.
+ *
+ * @author  myName
+ * @version 1.0
+ */
+
 public class DungeonParserDriver {
 
     public static void main(String args[]) {

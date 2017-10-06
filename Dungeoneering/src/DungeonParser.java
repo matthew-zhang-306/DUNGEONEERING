@@ -2,20 +2,18 @@ import java.util.*;
 import java.io.*;
 
 /**
- * DungeonParser
+ * <h1>DungeonParser</h1>
+ * The DungeonParser class converts information on a dungeon document into data.
+ * <p>
+ *     It assumes that the dungeon document is formatted correctly.
+ * </p>
  *
- * Converts dungeon text into usable data.
- *
- * v. 1.1
+ * @author  myName
+ * @version 1.0
  */
 
 
 public class DungeonParser {
-
-
-    /**********
-     * THINGS *
-     **********/
 
     String dungeon;
     int floors;
@@ -38,18 +36,24 @@ public class DungeonParser {
     int pokeMin;
     int pokeMax;
 
+    /**
+     * Constructor for a DungeonParser object. Automatically conducts the parse.
+     * @param d The name of the dungeon document
+     */
     public DungeonParser(String d) {
         dungeon = d;
 
         parse();
     }
 
-
-    /**************
-     * MAIN PARSE *
-     **************/
-
-    public void parse() {
+    /**
+     * This method reads a dungeon document and extract information about the dungeon.
+     * It requires that the specified file exists and is formatted correctly.
+     * <p>
+     *     It is automatically called by the constructor.
+     * </p>
+     */
+    private void parse() {
         // initialize scanner
         Scanner scan = null;
         try {
@@ -96,29 +100,47 @@ public class DungeonParser {
     }
 
 
-    /*****************
-     * PARSE METHODS *
-     *****************/
-
-    public int parseSingleInt(int index, Scanner scan) {
+    /**
+     * Helper for parse(): This method parses a line containing a single number.
+     * @param index The starting position of the actual number
+     * @param scan The scanner used by the DungeonParser
+     * @return The integer in the line
+     */
+    private int parseSingleInt(int index, Scanner scan) {
         return Integer.parseInt(scan.nextLine().substring(index));
     }
-
-    public int[] parseRange(int index, Scanner scan) {
+    /**
+     * Helper for parse(): This method parses a line containing two numbers.
+     * @param index The starting position of the first number
+     * @param scan The scanner used by the DungeonParser
+     * @return The integers in the line
+     */
+    private int[] parseRange(int index, Scanner scan) {
         String[] range = scan.nextLine().substring(index).split("-");
         int[] numbers = {Integer.parseInt(range[0]), Integer.parseInt(range[1])};
         return numbers;
     }
-
-    public int[] parseChanceList(int size, int index, Scanner scan) {
+    /**
+     * Helper for parse(): This method parses a list of lines containing count percentages.
+     * @param size The number of lines to scan
+     * @param index The starting position of the percent
+     * @param scan The scanner used by the DungeonParser
+     * @return The percentages in the list
+     */
+    private int[] parseChanceList(int size, int index, Scanner scan) {
         int[] output = new int[size];
         for (int a = 0; a < size; a++) {
             output[a] = Integer.parseInt(scan.nextLine().substring(index));
         }
         return output;
     }
-
-    public ChanceObject[] parseChanceObjects(int size, Scanner scan) {
+    /**
+     * Helper for parse(): This method parses a list of lines containing ranges of dice rolls.
+     * @param size The number of lines to scan
+     * @param scan The scanner used by the DungeonParser
+     * @return The ChanceObjects containing the ranges
+     */
+    private ChanceObject[] parseChanceObjects(int size, Scanner scan) {
         ChanceObject[] output = new ChanceObject[size];
         for (int b = 0; b < size; b++) {
             String[] data = scan.nextLine().split("-");

@@ -1,5 +1,13 @@
 import java.util.ArrayList;
 
+/**
+ * <h1>DungeonGeneratorDriver</h1>
+ * The DungeonGeneratorDriver class tests the functionality of the DungeonGenerator and XPMachine classes.
+ *
+ * @author  myName
+ * @version 1.0
+ */
+
 public class DungeonGeneratorDriver {
 
     public static void main(String args[]) {
