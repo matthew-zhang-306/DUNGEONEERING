@@ -12,14 +12,17 @@ public class DungeonGeneratorDriver {
 
     public static void main(String args[]) {
 
-        DungeonGenerator dungeon = new DungeonGenerator("moonywoods");
+        DungeonGenerator dungeon = new DungeonGenerator("leftsweetmountain");
 
         dungeon.generateRooms();
         System.out.println(dungeon);
 
         ArrayList<PartyMember> peeps = new ArrayList<PartyMember>();
         peeps.add(new PartyMember("E"));
-        peeps.add(new PartyMember("Qux"));
+        peeps.add(new PartyMember("Ebony"));
+        peeps.add(new PartyMember("Kokoro"));
+        peeps.add(new PartyMember("Allie"));
+        peeps.add(new PartyMember("Nix"));
 
         XPMachine xp = new XPMachine(dungeon.getEncounters(), peeps);
         xp.giveXP();

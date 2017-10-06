@@ -1,11 +1,12 @@
 Abby 10 1000 mediumfast
 Allie 12 2222 slow
-E 14 2800 mediumfast
-Ebony mediumslow
-Ifreet mediumfast
-Kokoro mediumfast
-Nix mediumfast
-Ranma mediumfast
+E 13 2311 mediumfast
+Ebony 13 1575 mediumslow
+Ifreet 1 0 mediumfast
+Kokoro 11 1707 mediumfast
+Nix 12 1858 mediumfast
+Ranma 1 0 mediumfast
+Shimmer 5 100 fast
 Victor 21 10278 mediumfast
 Qux 21 9454 mediumfast
-default 0 0 mediumfast
+default 1 0 mediumfast

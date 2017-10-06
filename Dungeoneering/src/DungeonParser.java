@@ -35,6 +35,7 @@ public class DungeonParser {
     ChanceObject[] itemTypes;
     int pokeMin;
     int pokeMax;
+    int geoPebblesMax;
 
     /**
      * Constructor for a DungeonParser object. Automatically conducts the parse.
@@ -96,6 +97,8 @@ public class DungeonParser {
         temp = parseRange(12, scan);
         pokeMin = temp[0];
         pokeMax = temp[1];
+
+        geoPebblesMax = parseSingleInt(13, scan);
 
     }
 
@@ -198,5 +201,7 @@ public class DungeonParser {
 
     public int getPokeMin() { return pokeMin; }
     public int getPokeMax() { return pokeMax; }
+
+    public int getGeoPebblesMax() { return geoPebblesMax; }
 
 }

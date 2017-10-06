@@ -66,6 +66,11 @@ public class Pickup {
             count = random.nextInt(range) + dungeon.getPokeMin();
             out = name;
         }
+        // GEO PEBBLE
+        else if (name.equals("Geo Pebble")) {
+            count = random.nextInt(dungeon.getGeoPebblesMax()) + 1;
+            out = name;
+        }
         // DEFAULT
         else {
             out = name;

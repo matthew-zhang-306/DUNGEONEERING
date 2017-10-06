@@ -1,0 +1,33 @@
+Left Sweet Mountain
+Floors: 6
+Rooms per floor: 5-9
+Traps: 2
+    1 Trap: 30
+    2 Trap: 10
+Trap List: 3
+    1-50-Wonder Tile
+    51-89-Hunger Trap
+    90-100-Seal Trap
+Monster House: 50
+Big Room Chance: 20
+Pokémon Present: 6
+    Carbink, Geodude, Diglett, Cubone, Cleffa, Mawile
+Level Range: 6-9
+Items: 5
+    1 Item: 70
+    2 Item: 40
+    3 Item: 20
+    4 Item: 5
+    5 Item: 1
+Item List: 9
+    1-20-Geo Pebble
+    21-31-Poke
+    32-43-Oran Berry
+    44-65-Apple
+    66-77-Big Apple
+    77-88-Tiny Reviver Seed
+    89-98-Gummi
+    99-99-Mini Donut
+    100-100-Moon Stone
+Poke Piles: 25-40
+Geo Pebbles: 4
