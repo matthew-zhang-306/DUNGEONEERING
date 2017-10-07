@@ -53,7 +53,7 @@ public class Encounter {
             if (stats[0].equals(name)) break;
         }
 
-        xp = (int)Math.round(Double.parseDouble(stats[1]) * level / 7.0);
+        xp = (int)Math.floor(Double.parseDouble(stats[1]) * level / 7.0);
 
     }
 

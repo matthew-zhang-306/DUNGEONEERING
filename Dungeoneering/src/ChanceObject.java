@@ -32,7 +32,7 @@ public class ChanceObject {
      * @return low <= roll <= high
      */
     public boolean getInRange(int roll) {
-        if (roll >= low && roll <= high)
+        if (roll+1 >= low && roll+1 <= high)
             return true;
         return false;
     }

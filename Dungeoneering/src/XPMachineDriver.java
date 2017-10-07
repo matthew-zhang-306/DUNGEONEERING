@@ -6,14 +6,14 @@ public class XPMachineDriver {
     public static void main(String args[]) {
 
         ArrayList<PartyMember> party = new ArrayList<PartyMember>();
-        party.add(new PartyMember("Qux", 16, 4530, "mediumfast"));
-        party.add(new PartyMember("Victor", 17, 5477, "mediumfast"));
+        party.add(new PartyMember("Ebony", 1, 0, "mediumslow"));
+        party.add(new PartyMember("Allie", 1, 0, "slow"));
 
         XPMachine xp = new XPMachine(party);
 
         Scanner scan = null;
         try {
-            scan = new Scanner(new File("encounters"));
+            scan = new Scanner(new File("unittest"));
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
@@ -25,9 +25,6 @@ public class XPMachineDriver {
 
         xp.giveXP();
         System.out.println(xp);
-
-
-
 
         ArrayList<PartyMember> peeps = xp.getParty();
         for (int i = 0; i < peeps.size(); i++) {

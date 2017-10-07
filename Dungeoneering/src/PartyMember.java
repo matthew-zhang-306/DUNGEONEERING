@@ -142,10 +142,10 @@ public class PartyMember {
     private int levelReq(String speed, int level) {
         int output = (int)Math.pow(level, 3);
         if (speed.equals("fast")) {
-            output *= 4/5;
+            output *= 4.0/5.0;
         }
         else if (speed.equals("slow")) {
-            output *= 5/4;
+            output *= 5.0/4.0;
         }
         else if (speed.equals("mediumslow")) {
             double temp = output * 6.0 / 5.0;
