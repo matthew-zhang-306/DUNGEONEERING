@@ -87,7 +87,7 @@ public class Room {
         for (int t = 0; t < trapNum; t++) {
             traproll = random.nextInt(100);
             for (int a = 1; a <= dungeon.getTrapsNum(); a++) {
-                if (dungeon.getTrapType(a).getInRange(itemroll)) {
+                if (dungeon.getTrapType(a).getInRange(traproll)) {
                     traps[t] = new Pickup(dungeon, dungeon.getTrapType(a).getName());
                     break;
                 }
