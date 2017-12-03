@@ -1,0 +1,28 @@
+Waterfall Cave
+Floors: 12
+Rooms per floor: 1-4
+Traps: 1
+    1 Trap: 20
+Trap List: 2
+    1-60-Wonder Tile
+    61-99-Hunger Trap
+Monster House: 5
+Big Room Chance: 30
+Pokémon present: 6
+    Staryu, Froakie, Squirtle, Palpitoad, Woobat, Crabrawler
+Level Range: 2-14
+Items: 3
+    1 Item: 30
+    2 Item: 10
+    3 Item: 2
+Item List: 8
+    1-30-Berry
+    31-50-Poke
+    51-66-Health Orb
+    67-72-Apple
+    73-80-Gold Bar
+    81-98-Tiny Reviver Seed
+    99-99-Special Band
+    100-100-Joy Seed
+Poké piles: 5-15
+Geo Pebbles: 0

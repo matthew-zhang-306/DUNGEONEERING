@@ -1,0 +1,29 @@
+Petrous Plain
+Floors: 6
+Rooms per floor: 3-8
+Traps: 1
+    1 Trap: 20
+Trap List: 3
+    1-50-Wonder Tile
+    51-89-Hunger Trap
+    90-100-Seal Trap
+Monster House: 20
+Big Room Chance: 30
+Pokemon Present: 6
+    Shuckle, Sandyghast, Cubone, Durant, Roggenrola, Onix
+Level Range: 4-16
+Items: 3
+    1 Item: 30
+    2 Item: 10
+    3 Item: 2
+Item List: 8
+    1-30-Geo Pebble
+    31-50-Gravelrock
+    51-66-Poke
+    67-72-Apple
+    73-80-Tiny Reviver Seed
+    81-98-Iron Thorn
+    99-99-Iron
+    100-100-Zinc
+Poke Piles: 10-30
+Geo Pebbles: 5

@@ -67,7 +67,7 @@ public class Pickup {
             out = name;
         }
         // GEO PEBBLE
-        else if (name.equals("Geo Pebble")) {
+        else if (name.equals("Geo Pebble") || name.equals("Gravelrock") || name.equals("Iron Thorn")) {
             count = random.nextInt(dungeon.getGeoPebblesMax()) + 1;
             out = name;
         }
