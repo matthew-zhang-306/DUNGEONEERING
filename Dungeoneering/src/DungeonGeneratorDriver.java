@@ -18,8 +18,14 @@ public class DungeonGeneratorDriver {
         System.out.println(dungeon);
 
         ArrayList<PartyMember> peeps = new ArrayList<PartyMember>();
-        peeps.add(new PartyMember("E"));
+        peeps.add(new PartyMember("Allie"));
+        peeps.add(new PartyMember("Ifreet"));
+        peeps.add(new PartyMember("Ebony"));
         peeps.add(new PartyMember("Shimmer"));
+        peeps.add(new PartyMember("Alex"));
+        peeps.add(new PartyMember("E"));
+        peeps.add(new PartyMember("Ranma"));
+
 
         XPMachine xp = new XPMachine(dungeon.getEncounters(), peeps);
         xp.giveXP();
